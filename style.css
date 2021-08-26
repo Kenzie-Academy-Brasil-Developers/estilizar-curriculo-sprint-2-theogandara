@@ -11,7 +11,7 @@
 #name {
 	color: #444444;
 	float: left;
-	font-family: Rokkitt;
+	font-family: 'rokkitt', sans-serif;
 }
 
 #contactDetails {
@@ -23,19 +23,24 @@
 	float: left;
 	width: 25%;
 	color: #cf8a05;
-	font-style: Helvetica;
+	font-style: italic;
+	font-family: 'Rokkitt', sans-serif;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
-	
+	font-style: normal;
+	font-family: 'Rokkitt';
+	color: #444444;
 }
 
 .linhaCabecalho{
 	border-top: 2px solid #cf8a05;
 }
 
+.keySkills{
+}
 
 div img{
 	width: 110px;
@@ -44,33 +49,31 @@ div img{
 	margin-left: 30px;
 }
 
-#top{
-	margin: 60px;
-}
-
-ul{
-	list-style:none;
-}
-
-a{
-	margin-right: 50px;
-	color:#444444;
-}
-
 
 .linhaPreta{
 	border-top: 1px solid #dedede;
 }
 
-#cv{
-	margin: 120px;
+.subDetails{
+	font-style: italic;
+	color: #181818;
 }
 
-#top{
-	background-color: #f3f3f3;
-	font-style: Helvetica;
+h2{
+	color: #444444;
 }
 
-body, html{
-	font-style: Lato;
+.sectionContent ul li{
+	width:10em;
+	float:left;
+}
+
+ul{
+	
+	list-style: none;
+}
+
+a{
+	color: #181818;
+	text-decoration: none;
 }
